@@ -1,0 +1,20 @@
+{
+  "name": "demo-node-image-server",
+  "version": "1.0.0",
+  "description": "Demo image server.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix .",
+    "start": "node index.js",
+    "local-start": "node $NODE_DEBUG_OPTION index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kaustuv Mukherjee",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.6.0",
+    "express": "^4.17.2",
+    "path": "^0.12.7",
+    "winston": "^3.3.4"
+  }
+}
